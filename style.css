@@ -172,9 +172,9 @@
 
  .menu{
     display: list-item;
-    font-size: 2.7rem;
+    font-size: 2rem;
     font-weight: 0.7rem;
-    padding: 3rem;
+    padding: 2.5rem;
 }
 
  .nav_bar{
@@ -195,6 +195,7 @@
       display: flex;
       width: 1.8rem;
       height: 1.8rem;
+      padding-top: 1.9rem;
     }
   
     .icons_3{
@@ -219,6 +220,7 @@
 
 .con_2{
     font-size: 0.9rem;
+
 }
 
  .col{
@@ -227,6 +229,7 @@
     flex-wrap: wrap;
     padding: 2.8rem;
     padding-right: 8rem;
+    text-align: center;
 }
 }
 
@@ -294,7 +297,9 @@
     font-size: 0.7rem;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     padding: 1.1rem;
     padding-right: 8rem;
 }
+
 }
