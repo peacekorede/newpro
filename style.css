@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(75, 71, 71);
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 9rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.sub{
+    padding: 1rem;
+    background-color: green;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 9rem;
+    color: black;
+    background-color:whitesmoke;
+    padding: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+#special{
+    font-family: 'Satisfy', cursive;
+}
+
+.nav_bar{
+    display: flex;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 9rem;
+    margin-right: 2rem;
+}
+
+.icons{
+  width: 2rem;
+  display: flex;
+}
+
+.icons_2{
+    display: flex;
+    width: 2.9rem;
+    height: 2.9rem;
+}
+  
+  .icons_3{
+    width: 1.3rem;
+    }
+
+  .icons_4{
+    width: 1.3rem;
+    padding-left: 1rem;
+  }
+  
+.message{
+    color: white;
+    background-color: rgb(49, 45, 45);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 9rem;
+    padding: 9rem;
+    background-image: url();
+}
+.mes_1{
+    color: gray;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
+.mes_2{
+    font-size: 2.3rem;
+    letter-spacing: 0.4rem;
+    font-weight: 7.5rem;
+    margin-top: 1.2rem;
+}
+
+
+.btn{
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+    color: white;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+}
+.btn span{
+   font-weight: 600;
+}
+
+
+.btn_1{
+    background-color: rgb(109, 187, 109);
+    border: 1px solid rgb(109, 187, 109);
+}
+
+.btn_2{
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.all{
+   justify-content: center;
+    display: flex;
+}
+
+.con{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    padding-top: 3.7rem;
+    padding-bottom: 4rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 1rem;
+}
+
+.con_1{
+    padding-top: 0.5rem;
+    color: gray;
+}
+.con_2{
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 0.5rem;
+    color: gray;
+}
+
+.col{
+   background-color: rgb(17, 13, 51);
+   color: white;
+   padding-top: 1.2rem;
+   padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cor{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media (min-width: 420px) and (max-width: 910px){
+   .body{
+        margin: 0rem;
+        width: 19.4rem;
+    }
+
+.header{
+    display: none;
+  }
+
+ .menu{
+    display: list-item;
+    font-size: 2.7rem;
+    font-weight: 0.7rem;
+    padding: 3rem;
+}
+
+ .nav_bar{
+    font-size: 1rem;
+    padding-top: 1.4rem;
+    margin-right: 1rem;
+ }
+
+ .sub{
+    display: none;
+ }
+ 
+ .icons{
+    display: none;
+ }
+
+.icons_2{
+      display: flex;
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+  
+    .icons_3{
+      width: 0.7rem;
+}
+  
+    .icons_4{
+      width: 0.5rem;
+    }
+
+ .message{
+    padding: 3.4rem;
+    font-size: 3.8rem;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+ .con{
+    font-size: 1.3rem;
+    padding: 2.1rem;
+}
+
+.con_2{
+    font-size: 0.9rem;
+}
+
+ .col{
+    font-size: 0.7rem;
+    display: list-item;
+    flex-wrap: wrap;
+    padding: 2.8rem;
+    padding-right: 8rem;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 419px){
+    .body{
+        margin: 0rem;
+        width: 24.4rem;
+    }
+
+.header{
+    display: none;
+  }
+
+ .menu{
+    display: list-item;
+    font-size: 1.7rem;
+    font-weight: 0.7rem;
+    padding: 1rem;
+}
+
+ .nav_bar{
+    font-size: 0.7rem;
+    padding-top: 0.8rem;
+   
+    margin-right: 1rem;
+ }
+ .sub{
+    display: none;
+ }
+
+.icons{
+    display: none;
+ }
+
+ .icons_2{
+    display: flex;
+    width: 1.5rem;
+    height: 1rem;
+}
+
+  .icons_4{
+    width: 1rem;
+  }
+
+ .message{
+   padding: 1rem;
+    padding-left: 1rem;
+    text-align: start;
+    font-size: 0.7rem;
+    font-weight: 0.7rem;
+ }
+
+ .con{
+    font-size: 1.2rem;
+    padding: 1.1rem;
+    padding-bottom: 1rem;
+}
+ 
+ .con_2{
+    padding-bottom: 2rem;
+ }
+
+ .col{
+    font-size: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.1rem;
+    padding-right: 8rem;
+}
+}
